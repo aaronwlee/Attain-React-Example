@@ -10,6 +10,9 @@ userController.get("/", (req, res) => {
 });
 
 // handle user errors
-userController.error("/", userController);
+userController.error("/", (error, req, res) => {
+  console.error("error", error.message)
+  res.status(404).send({ message: error.message })
+});
 
 export default userController;
