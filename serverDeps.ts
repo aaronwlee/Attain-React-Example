@@ -3,8 +3,8 @@ export {
   Router,
   Request,
   Response,
-  staticServe,
+  reactServe,
   logger,
   parser,
   security,
-} from "https://deno.land/x/attain/mod.ts";
+} from "https://deno.land/x/attain@cli-beta-0.1/mod.ts";
