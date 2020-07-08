@@ -1,4 +1,4 @@
-import { React, styled } from "../deps.ts";
+import { React, styled } from "@cdn";
 
 const Layout = styled(({ children, title, ...rest }: any) =>
   <div>

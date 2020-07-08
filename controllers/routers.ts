@@ -1,4 +1,4 @@
-import { Router, parser } from "../serverDeps.ts";
+import { Router, parser } from "attain";
 import userController from "./userController.ts";
 
 const routers = new Router();

@@ -1,4 +1,4 @@
-import { Router } from "../serverDeps.ts";
+import { Router } from "attain";
 import User from "../models/user.ts";
 
 const userController = new Router();

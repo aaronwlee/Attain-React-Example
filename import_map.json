@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "@cdn": "./config/cdn-exports.ts",
+    "attain": "https://deno.land/x/attain@cli-beta-0.1/mod.ts"
+  }
+}

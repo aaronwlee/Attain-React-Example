@@ -1,4 +1,4 @@
-import { React, styled, ReactRouterDOM } from "../deps.ts";
+import { React, styled, ReactRouterDOM } from "@cdn";
 
 const Link = ReactRouterDOM.Link;
 

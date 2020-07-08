@@ -1,4 +1,4 @@
-import { React, styled } from "../deps.ts";
+import { React, styled } from "@cdn";
 import Layout from "./Layout.tsx";
 import User from "../../models/user.ts";
 
