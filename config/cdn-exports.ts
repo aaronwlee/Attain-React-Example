@@ -1,8 +1,9 @@
-const useWindow: any = window;
-
 export const {
-  React,
-  ReactDOM,
-  styled,
-  ReactRouterDOM
-} = useWindow;
+	React,
+	ReactDOM,
+	ReactIs,
+	ReactRouterDOM,
+	styled,
+	MaterialUI
+} = globalThis as any;
+    

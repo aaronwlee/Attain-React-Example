@@ -1,4 +1,14 @@
-CDN: 
-  - "//unpkg.com/react-is/umd/react-is.production.min.js"
-  - "//unpkg.com/react-router-dom/umd/react-router-dom.min.js"
-  - "//unpkg.com/styled-components/dist/styled-components.min.js"
+DEVELOPMENT:
+  - 'https://unpkg.com/react@16/umd/react.development.js'
+  - 'https://unpkg.com/react-dom@16/umd/react-dom.development.js'
+  - 'https://unpkg.com/react-is/umd/react-is.production.min.js'
+  - 'https://unpkg.com/react-router-dom/umd/react-router-dom.min.js'
+  - 'https://unpkg.com/styled-components/dist/styled-components.min.js'
+  - 'https://unpkg.com/@material-ui/core@latest/umd/material-ui.development.js'
+PRODUCTION:
+  - 'https://unpkg.com/react@16/umd/react.production.min.js'
+  - 'https://unpkg.com/react-dom@16/umd/react-dom.production.min.js'
+  - 'https://unpkg.com/react-is/umd/react-is.production.min.js'
+  - 'https://unpkg.com/react-router-dom/umd/react-router-dom.min.js'
+  - 'https://unpkg.com/styled-components/dist/styled-components.min.js'
+  - 'https://unpkg.com/@material-ui/core@latest/umd/material-ui.production.min.js'
