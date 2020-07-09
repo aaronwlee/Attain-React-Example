@@ -1,5 +1,5 @@
 import { React, styled } from "@cdn";
-import Layout from "./Layout.tsx";
+import Layout from "../components/Layout.tsx";
 import User from "../../models/user.ts";
 
 const { useState, useEffect } = React;

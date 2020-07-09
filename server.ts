@@ -10,4 +10,4 @@ app.error("/api", routers);
 
 // Client-Side Only
 app.use(reactServe());
-app.listen({ port: 3500, debug: true });
+app.listen({ port: 3500 });

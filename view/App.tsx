@@ -1,6 +1,6 @@
 import { React, ReactRouterDOM, styled } from "@cdn";
-import Users from "./components/Users.tsx";
-import Home from "./components/Home.tsx";
+import Users from "./pages/Users.tsx";
+import Home from "./pages/Home.tsx";
 import Nav from "./components/Nav.tsx";
 const {
   BrowserRouter: Router,
