@@ -1,11 +1,11 @@
-import { Router } from "attain";
-import User from "../models/user.ts";
+import { Router } from "@attain";
+import { getUsers } from "../services/userService.ts";
 
 const userController = new Router();
 
 // handle user routes
 userController.get("/", (req, res) => {
-  const users = Array.from(User.values());
+  const users = getUsers();
   res.send(users);
 });
 
